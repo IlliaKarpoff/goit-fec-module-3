@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Playfair Display", "Ubuntu", "Arial", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+/* HEADER */
+.wrapper {
+  font-size: 0px;
+  width: 900px;
+  margin: 0 auto;
+}
+.navigation {
+  padding: 76px 0;
+}
+.nav-list {
+  margin: 0px;
+  padding: 0px 0px 16px;
+  text-align: center;
+  /* WHY text-align: center; doesn't work with display: inline-block; */
+  /* vertical-align: middle; - it doesn't work */
+}
+.nav-list li:not(:last-child) {
+  margin-right: 100px;
+}
+.nav-list-item {
+  display: inline-block;
+  list-style: none;
+  margin: 0px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav-list-item a {
+  display: inline-block;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+}
+.nav-list-item:hover a,
+.nav-list-item:focus a {
+  color: #03a9f4;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+}
+
+/* MAIN */
+.content section:not(:last-child) {
+  margin-bottom: 128px;
+}
+.wrapper article:not(:last-child) {
+  margin-right: 60px;
+}
+.art-content {
+  display: inline-block;
+  width: 420px;
+}
+.section-heading {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  font-weight: 300;
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  /* margin-bottom: 20px; */
+}
+.art-heading {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 24px;
+  text-align: left;
+}
+
+/* button */
+.button {
+  margin: 0;
+  padding: 20px 34px;
+  min-width: 164px;
+  height: 60px;
+  border: 1px solid #626262;
+  font-size: 20px;
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  cursor: pointer;
+}
+.box {
+  margin-top: 52px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.button:hover,
+.button:focus {
+  color: #03a9f4;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 0.35);
+}
