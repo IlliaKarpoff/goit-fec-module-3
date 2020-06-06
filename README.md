@@ -1,4 +1,4 @@
-# Goit-FE-course-module-03
-Homework-03
-display: inline-block
-Блочные и строчные элементы
+# Goit-FE-core/module-03;
+Homework-03;
+display: inline-block;
+Блочные и строчные элементы;
